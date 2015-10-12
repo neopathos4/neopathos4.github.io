@@ -5,13 +5,111 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>井口和宏の自己紹介</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <!-- jQuery読み込み -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <style>
+      body {
+        font-size: 14px;
+      }
+      
+      .navbar {
+        border-radius: 0; 
+      }
+      
+      .row {
+        margin-bottom: 50px;
+      }
+      
+      .icon {
+        text-align: center;
+      }
+      
+      .icon .glyphicon {
+        margin-bottom: 10px;
+        font-size: 40px;
+        color: #777;
+      }
+      
+      .content h2 {
+        margin-top: 0;
+        padding-bottom: 15px;
+      }
+      .content p {
+        margin-bottom: 30px;
+      }
+      
+      footer {
+        border-top: 1px solid#e7e7e7;
+        background-color: #f8f8f8;
+        text-align: center;
+      }
+      
+      .copyright {
+        padding: 20px 0;
+        font-size: 12px;
+        color: #666;
+      }
+      
+      @media (max-width: 768px) {
+        body {
+          font-size: 12px;
+        }
+        h1 {
+          font-size: 30px;
+        }
+        h2 {
+          font-size: 24px;
+        }
+        .panel-title {
+          font-size: 14px;
+        }
+      }
+    </style>
   </head>
   <body>
-    <h1>井口和宏の自己紹介</h1>
-        <p>IT企業に勤務し、事業開発職として従事。近い将来、ヨットシェアリングサービスを立ち上げたいと考えている。</p>
-        <p>プログラミングは大変です。</p>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <header>
+      <p>井口和宏の自己紹介</p>
+    </header>
+    <div class=container>
+      <div class="page-header">
+        <h1>井口和宏の自己紹介</h1>
+      </div>
+        <div class="row">
+        <div class="content col-sm-9">
+          <h2>趣味</h2>
+          <p>
+            ヨット、読書、新しいWebサービスを使ってみること。
+          </p>
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title" id="panel-title">
+                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> 
+                rubyで創るサービス
+              </h3>
+            </div>
+            <div class="panel-body">
+              ヨットシェアリングサービス
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="content col-sm-9">
+          <h2>ヨットシェアリングサービスとは？</h2>
+          <p>
+            オーナーが個人で所有する遊休資産としてのヨット・ボートを、<br>
+            ユーザーとしての借り手に貸し出すマッチングサービスです。
+          </p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="copyright">© 2015 K.Iguchi</div>
+    </footer>
   </body>
 </html>
